@@ -12,9 +12,9 @@ app.use(cors());
 
 
 const config = new AWS.Config({
-    accessKeyId: 'PUT_ACCESSKEY',
-    secretAccessKey: 'SECRET_KEY',
-    region: 'SET_YOUR_REGIONS' 
+    //accessKeyId: 'PUT_ACCESSKEY',
+    //secretAccessKey: 'SECRET_KEY',
+    //region: 'SET_YOUR_REGIONS' 
 });
 const client = new Route53Client(config);
 
