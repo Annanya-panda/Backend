@@ -12,7 +12,7 @@ app.use(cors());
 
 
 const config = new AWS.Config({
-    
+    //Please add lines from the commit message and add real values.
 });
 const client = new Route53Client(config);
 
